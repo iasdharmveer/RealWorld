@@ -2,184 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <style>
-        
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-body {
-    font: arial, verdana, 'sans-serif', 16px, 1.5;
-    color: black;
-    line-height: 1.5;
-   
-}
-.container .cards .items img {
-    width: 100%;
-    aspect-ratio: 3:2;
-    object-fit: contain;
-}
-/* navigation bar  and header*/
-.navigation, .header, .header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #1F2937;
-    color: #fff;
-    padding: 1.5rem;
-    line-height: 1.5;
-}
-#nav  {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    gap: 2rem;
-
-}
-#nav a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.3rem;
-}
-
-#nav a:hover {
-    background-color: #223a5d;
-    padding: 2rem;
-    border-radius: 1rem;
-    font-size: 1.5rem;
-    font-weight: 900;
-}
-/* random card section*/
-.container, 
-.cards,
-.items {
-    display: flex;
-    padding: 1rem;
-}
-.container {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-}
-.container .cards {
-    flex-flow: row wrap;
-    justify-content: space-between;
-
-}
-.items {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    
-}
-/* quotes section */
-.quotes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-height: 80rem;
-    height: 100%;
-    padding: 10rem 5rem;
-    background-color: #E5E7EB;
-    color: #1F2937;
-    font-size: 36px;
-    font-style: italic;
-}
-/* Sign up section */
-.callToAction {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #3882F6;
-    height: 10rem;
-    border-radius: 20px;
-    margin: 30px 50px;
-    padding: 20px;
-    color: #ffffff;
-}
-/* Sign up Button */
-button {
-    border: 3px solid #ffffff;
-    border-radius: 8px;
-    padding: 10px 20px;
-    background-color: #3882F6 ;
-    font-weight: 900;
-    color: #ffffff;
-}
-/* footer section */
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #1F2937;
-    color: #fff;
-    padding: 1.4rem;
-}
-    </style>
-    <title>RealWorld</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <title>IasDharmveer</title>
 </head>
 <body>
-    <!-- navigation bar -->
-    <nav class="navigation">
-            <div class="logo">
-                <h2>RealWorld</h2>
-            </div>
-            <ul id="nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
+    <header id="header">
+        <h2>IasDharmveer</h2>
+        
+        <nav id="navigation-bar">
+            <i id="menu-icon" class="fa-solid fa-bars"></i>
+            <ul id="nav-items">
+                <li><a href="">Home</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Contacts</a></li>
+                <li><a href="">About</a></li>
             </ul>
-    </nav>
-    <!-- header section -->
-    <header class="header">
-        <div class="header-container">
-            <div>
-                <h1>
-                    Welcome to RealWorld - Where Real Estate Dreams Come True!
-                </h1>
-                <p>
-                   Discover endless possibilities in buying, selling, and investing. Access a vast property database, use advanced search tools, and receive expert guidance throughout your journey. Join us today and unlock the door to your real estate aspirations.
-                </p>
-                <button class="button">Sign Up</button>
-            </div>
-            <img src="./images/realHouse.png" alt="" class="header-img">
-        </div>
+        </nav>
     </header>
-    <!-- Random cards section -->
-    <section class="container">
-        <h2>Some Random information</h2>
-        <div class="cards">
-            <div class="items">
-                <img src="./images/mumbaiBeach.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, voluptatum!</p>
-            </div>
-            <div class="items">
-                <img src="./images/mumbaiBoats.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, voluptatum!</p>
-            </div>
-            <div class="items">
-                <img src="./images/mumbaiBridge.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, voluptatum!</p>
-            </div>
-            <div class="items">
-                <img src="./images/mumbaiGate.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, voluptatum!</p>
-            </div>
+    <main class="main">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque minima ut voluptas consequuntur vel, repellat dolor nostrum assumenda ad. Blanditiis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti quo nemo consequuntur fuga eos aperiam saepe id impedit maiores, perferendis ipsa unde iste? Porro, ab. Quo fugit iure cumque blanditiis atque rerum. Quae itaque eveniet quod accusamus possimus. Consequatur.    
+        </p>
+        <img src="/images/realHouse.png" alt="">
+    </main>
+    <h2 class="h2-random">Some random facts<hr></h2>
+    <section id="projects">
+        <div class="card">
+            <img src="/images/mumbaiBeach.jpg" alt="">
+            <h2>mumbaiBeach</h2>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quidem? Maiores, ea commodi! Temporibus dicta nulla vero ab modi. Dolore?</p>
+        </div>
+        <div class="card">
+            <img src="/images/mumbaiBoats.jpg" alt="">
+            <h2>mumbaiBoats</h2>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quidem? Maiores, ea commodi! Temporibus dicta nulla vero ab modi. Dolore?</p>
+        </div>
+        <div class="card">
+            <img src="/images/mumbaiBridge.jpg" alt="">
+            <h2>mumbaiBridge</h2>
+            <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quidem? Maiores, ea commodi! Temporibus dicta nulla vero ab modi. Dolore?</p>
+        </div>
+        <div class="card">
+            <img src="/images/mumbaiGate.jpg" alt="">
+            <h2>mumbaiGate</h2>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quidem? Maiores, ea commodi! Temporibus dicta nulla vero ab modi. Dolore?</p>
         </div>
     </section>
-    <!-- Quotes section -->
     <blockquote class="quotes">
-        <q>Inspiration does exist, but it must find you working.</q>
-        <p>—Pablo Picasso</p>
+        <q><em>Inspiration does exist, but it must find you working.</em></q>
+        <p>&nbsp; ~Pablo Picasso</p>
     </blockquote>
-    <!-- Sign Up section -->
     <section class="callToAction">
         <div class="signup">
             <h2>Hurry up!! Hit the button </h2>
@@ -187,11 +60,8 @@ button {
         </div>
         <button class="button">Sign Up</button>
     </section>
-    <!-- Footer section -->
-    <footer class="footer">
-        <p>
-            RealWorld &nbsp;  &copy; All rights reserved
-        </p>
+    <footer id="footer">
+        <h6>IasDharmveer &copy;  All rights reserved</h6>
     </footer>
 </body>
 </html>
