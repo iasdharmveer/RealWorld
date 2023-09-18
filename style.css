@@ -62,7 +62,7 @@ body {
     justify-content: space-between;
     align-items: center;
     border: 5px solid #3882F6;
-    border-radius: .7rem;
+    border-radius: 0.5rem;
     flex: 1;
 }
 p {
@@ -118,7 +118,7 @@ button {
 }
 
 /* ---------------------------------media query---------------------- */
-@media screen and (max-width :720px) {
+@media screen and (max-width :1080px) {
     #nav-items{
         display: none;
     }
